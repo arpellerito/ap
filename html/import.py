@@ -34,8 +34,8 @@ BC_InfluxDBClient.insert(ticker, date, high, low, open, close, volume)
 
 
 
-print(s)
-print(s.__class__)
+print()
+print()
 
 
 
