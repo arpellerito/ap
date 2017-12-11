@@ -55,5 +55,7 @@ class BC_InfluxDBClient:
 
         return ret
 
+    def query(self, query):
+        return self.InfluxDBClient.query(query)
 
 
