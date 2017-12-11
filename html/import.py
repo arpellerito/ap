@@ -34,8 +34,10 @@ BC_InfluxDBClient.insert(ticker, date, high, low, open, close, volume)
 
 
 
-print()
-print()
+print(BC_InfluxDBClient.host)
+print(BC_InfluxDBClient.dbname)
+print(datetime._date)
+
 
 
 
