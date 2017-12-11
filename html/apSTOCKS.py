@@ -7,13 +7,13 @@ class BC_InfluxDBClient:
         self.port = '8086'
         self.user = 'ap'
         self.password = 'ddeerr44'
-        self.dbname = 'stocksDAILY'
+        self.database = 'stocksDAILY'
         self.query = 'select value from cpu_load_short;'
 
-        self.measurement
-        self.tags
-        self.time
-        self.fields
+        self.measurement = ""
+        self.tags = {}
+        self.time= ""
+        self.fields = {}
         self.json_body = [
             {
                 "measurement": "cpu_load_short",
@@ -30,7 +30,7 @@ class BC_InfluxDBClient:
                 }
             }
         ]
-        self.InfluxDBClient = InfluxDBClient(host=self.host, port=self.port, username=self.user, password=self.password, database=self.database)
+        self.InfluxDBClient = InfluxDBClient(self.host, self.port, self.user, self.password, self.database)
 
     def insert(self, ticker, date, high, low, open, close, volume):
         ret = ""
