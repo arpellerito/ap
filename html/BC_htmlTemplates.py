@@ -1,3 +1,4 @@
+header = """Content-Type: text/html\r\n
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,11 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="./navbar.css">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="scripts.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+"""
+
+navbar = """
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -26,11 +31,20 @@
   </div>
 </nav>
 
-<div class="container">
-  <h2>Navbar Button</h2>
-  <p>Use the navbar-btn class on a button to vertically align (same padding as links) it inside the navbar.</p>
-</div>
+"""
 
+footer = """
 
 </body>
 </html>
+
+"""
+
+
+def writeHeader():
+    ret = "Content-Type: text/html\r\n"
+    ret += ""
+
+
+
+

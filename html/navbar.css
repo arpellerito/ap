@@ -1,0 +1,76 @@
+.jumbotron {
+	background-color: rgb(40, 130, 156);
+	margin-bottom: 0px;
+	color:white;
+	font-family: 'Alegreya Sans SC';
+}
+.mainContainer {
+	padding: 2em;
+}
+
+.footer {
+	text-align:center;
+	margin-top:10px;
+	padding: 2em;
+	color: rgb(86, 168, 193);
+	background-color: white;
+	border-top: solid 2px rgb(40, 130, 156);
+}
+
+.container {
+}
+
+.scroll-500px {
+    overflow: auto;
+    max-height: 500px;
+
+}
+
+.scroll-10em {
+    overflow: auto;
+    max-height: 10em;
+
+}
+.scroll-25em {
+    overflow: auto;
+    max-height: 25em;
+
+}
+
+.scroll-50em {
+    overflow: auto;
+    max-height: 50em;
+
+}
+
+.ap-mainElement{
+    margin: 1%;
+    padding: 1%;
+}
+
+.progress{
+    border-radius: 0px;
+}
+
+.navItem {
+    color: white;
+    margin: auto;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.navItemActive {
+    color: grey;
+    margin: auto;
+    padding: 10px;
+    font-size: 26px;
+
+
+
+
+}
+
+
+.navbar {
+
+}
